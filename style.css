@@ -1,0 +1,257 @@
+body{
+    margin: 0px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#body_header{
+    height: 65vh;
+    background-image: url("nice.jpg");
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.horizontal li{
+    display: inline-block;
+    margin: 10px 20px 20px 0px;
+}
+.horizontal{
+    padding-left: 0px;
+}
+.horizontal li a{
+    text-decoration: none;
+    color: rgb(252, 253, 251);
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+.nav-menu li a{
+    border-radius: 10%;
+}
+.nav-menu li a:hover{
+    color: rgb(27, 155, 115);
+    border-bottom: 3px solid rgb(145, 120, 225); 
+    
+}
+.name{
+    margin: 90px 0px 0px 0px;
+}
+.name h1{
+    color: rgb(252, 252, 250);
+}
+
+.name h1:hover{
+    color: rgb(99, 209, 26);
+}
+
+.social_link li a i{
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 0px 7px 5px rgb(165, 192, 234);
+}
+.social_link li a i:hover{
+    box-shadow: 0px 0px 7px 5px rgb(171, 208, 35);
+}
+
+section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid purple; */
+    min-height: 50vh;
+    min-width: 50%;
+}
+/* #contact{
+    background-color: rgb(5, 40, 40);
+
+} */
+
+/* about section ................... */
+#about{
+    height: auto;
+    width: 100%;
+    margin-top: -17vh;
+    position: relative;
+}
+#my_dp{
+    height: 230px;
+    width: 200px;
+    margin: auto;
+    
+}
+#my_dp img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px 3px rgb(21, 195, 180);
+}
+
+#my_dp:hover{
+    height: 400px;
+    width: 400px;
+}
+
+#about-para{
+    margin: auto;
+    height: auto;
+    width: 70vw;
+    text-align: justify;
+}
+#about-para strong{
+    color: blue;
+}
+
+.head-section{
+    position: relative;
+    top: 2%;
+    margin: 50px auto;
+    box-shadow: 1px 1px 2px 4px rgb(128, 137, 165);
+}
+#contact .head-section{
+    box-shadow: none;
+}
+.head-section span{
+    padding-left: 15px;
+}
+
+/* skill section .................. */
+
+.talent{
+    position: relative;
+    width: 70%;
+    height: 300px; 
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    left: 6%;
+}
+.talent div{
+   width: 30%;
+   /* border: 1px solid green; */
+}
+.star{
+    color: rgb(198, 198, 93);
+    font-size: 1rem;
+}
+p::first-letter{
+    font-size: 3rem;
+    font-weight: 5px;
+    text-transform: capitalize;
+}
+
+/* contact section .....................*/
+
+#contact{
+    background-image: linear-gradient(90deg,hsl(214, 21%, 47%) 50%,rgb(179, 188, 203));
+} 
+.contact-display{
+    width: 80%;
+    height: 380px; 
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.contact-display div{
+    width: 50%;
+}
+.div1 a{
+    color: rgb(223, 70, 154);
+}
+.div2{
+    /* background-color: yellow; */
+    text-align: center;
+}
+.div2 p{
+    padding: 5px;
+}
+#contact span{
+    color: rgb(48, 73, 89);
+}
+/* portfolio section ..................... */
+/* #portfolio{
+     background: linear-gradient(cyan,rgb(92, 237, 147)); 
+} */
+.portfolio-display{
+    position: relative;
+    width: 80%;
+    height: 380px; 
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    top: 6%;
+}
+.portfolio-display div{
+    width: 50%;
+    text-align: center;
+}
+.p1 img:hover, .p2 img:hover{
+    box-shadow: 1px 1px 3px 3px cyan;
+}
+
+.p1 img{
+    height: 250px;
+    width: 300px;
+}
+.p2 img{
+    height: 250px;
+    width: 250px;
+}
+
+/* education section.................. */
+.education-display{
+    position: relative;
+    width: 1000px;
+    height: 800px; 
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+.box{
+    position: relative;
+    height:200px;
+    width: 450px;
+    /* border: 1px solid black; */
+    margin: 5px;
+    left: 3%;
+    text-align: center;
+    
+}
+.box:nth-child(2n){
+    left: 53%;
+    top: 1%;
+}
+.box:nth-child(2n+1){
+    top: 1%;
+}
+.vertical-divider{
+    position: absolute;
+    width: 0;
+    height: 85%;
+    border: 2px dashed rgb(168, 21, 124);
+    top: 4%;
+    left: 50%;
+}
+.train{
+    position: sticky;
+    top: 30%;
+}
+
+/* section coloring ............... */
+/* #skills{
+    background: linear-gradient(rgb(92, 107, 107),white);
+}
+#education{
+    background: linear-gradient(grey,cyan);
+}
+#portfolio{
+    background: linear-gradient(grey,white)
+} */
